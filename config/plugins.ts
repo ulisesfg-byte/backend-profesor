@@ -33,7 +33,7 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Plugin =>
   },
 upload: {
     config: {
-      provider: 'cloudinary',
+      provider: '@strapi/provider-upload-cloudinary',
       providerOptions: {
         cloud_name: env('CLOUDINARY_NAME'),
         api_key: env('CLOUDINARY_KEY'),
