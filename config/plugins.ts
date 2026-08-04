@@ -45,8 +45,8 @@ upload: {
         delete: {},
       },
       security: {
-        allowedTypes: allowedMediaTypes,
-        deniedTypes: deniedExecutableTypes,
+        allowedTypes: ['images', 'files', 'videos'],
+        deniedTypes: ['scripts'],
       },
     },
   },
