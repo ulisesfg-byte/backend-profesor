@@ -44,10 +44,6 @@ upload: {
         uploadStream: {},
         delete: {},
       },
-      security: {
-        allowedTypes: ['images', 'files', 'videos'],
-        deniedTypes: ['scripts'],
-      },
     },
   },
 });
