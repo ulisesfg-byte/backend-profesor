@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_beneficios",
+  "info": {
+    "displayName": "beneficios",
+    "icon": "cup"
+  },
+  "options": {},
+  "attributes": {
+    "icono": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

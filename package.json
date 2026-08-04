@@ -1,0 +1,44 @@
+{
+  "name": "backend-profesor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/database": "5.51.0",
+    "@strapi/plugin-cloud": "5.51.0",
+    "@strapi/plugin-users-permissions": "5.51.0",
+    "@strapi/provider-upload-cloudinary": "^5.51.1",
+    "@strapi/strapi": "5.51.0",
+    "better-sqlite3": "12.8.0",
+    "pg": "^8.22.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.30.3",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20.0.0 <=26.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "fb51d725-2372-4f18-92b2-e067aac689cd",
+    "installId": "04de8acf5814c50bbae31482da2f16244965b52149073e5f34602f2af9f2333c"
+  }
+}

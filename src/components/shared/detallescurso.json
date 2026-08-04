@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_detallescursos",
+  "info": {
+    "displayName": "detallescurso",
+    "icon": "car"
+  },
+  "options": {},
+  "attributes": {
+    "clave": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

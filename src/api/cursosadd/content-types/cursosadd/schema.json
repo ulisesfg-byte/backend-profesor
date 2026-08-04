@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cursosadds",
+  "info": {
+    "singularName": "cursosadd",
+    "pluralName": "cursosadds",
+    "displayName": "cursosadd"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagencurso": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "nombrecurso": {
+      "type": "string"
+    },
+    "etiqueta": {
+      "type": "string"
+    },
+    "costo": {
+      "type": "string"
+    },
+    "descripciondelcurso": {
+      "type": "text"
+    },
+    "detalles": {
+      "type": "component",
+      "component": "shared.detallescurso",
+      "repeatable": true
+    }
+  }
+}
