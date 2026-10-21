@@ -30,6 +30,9 @@
     "costo": {
       "type": "string"
     },
+    "costotapado": {
+      "type": "string"
+    },
     "descripciondelcurso": {
       "type": "text"
     },
