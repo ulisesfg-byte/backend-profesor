@@ -462,6 +462,9 @@ export interface ApiCursosaddCursosadd extends Struct.CollectionTypeSchema {
     descripciondelcurso: Schema.Attribute.Text;
     detalles: Schema.Attribute.Component<'shared.detallescurso', true>;
     etiqueta: Schema.Attribute.String;
+    fondocurso: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
     imagencurso: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;
